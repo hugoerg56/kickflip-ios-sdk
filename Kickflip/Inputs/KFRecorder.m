@@ -61,8 +61,8 @@
 
 - (void) setupEncoders {
     self.audioSampleRate = 44100;
-    self.videoHeight = 720;
-    self.videoWidth = 1280;
+    self.videoHeight = 736;
+    self.videoWidth = 414;
     int audioBitrate = 64 * 1000; // 64 Kbps
     int maxBitrate = [Kickflip maxBitrate];
     int videoBitrate = maxBitrate - audioBitrate;
